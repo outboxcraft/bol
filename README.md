@@ -1,3 +1,4 @@
-# BOL
+# bol
 Base Object Layer - Design Methodology
-Learn moe (here)[http://ramdeoshubham.com/bol]. 
+
+Read [here](http://ramdeoshubham.com/bol). 
