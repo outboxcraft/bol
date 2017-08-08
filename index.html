@@ -1,45 +1,39 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta content="#5E2D79" name="theme-color">
+<meta content="width=device-width,height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+<title>bol Methodology</title>
+
 <link rel="stylesheet" type="text/css" href="https://rawgit.com/outboxcraft/beauter/master/beauter.min.css" />
-    <style media="Screen" type="text/css">
-    body{   font-family: "Courier New", Courier, monospace
-    }
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=597d9dc59f5787001247683c&product=inline-share-buttons' async='async'></script>
+<style media="Screen" type="text/css">
     .c{margin-top:5%; margin-bottom:5%;background:#f5f5f5;padding:5%;}
-    .slide {
-    height:100vh;
-    width:100%;
-    padding:5%;
-    display: table;
-
+    .slide {padding:5%;}
+    h1::before{content:"#"}
+    h1{color:purple}
+    p, dl, dt, dd{text-align:justify;}
+    body{font-family: 'Inconsolata', monospace;}
+    hr{border-color:hotpink}
+pre code{border-radius:0;background:#f0f0f0;color:#333}
+  .down {transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);}
+  .i-a {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
     }
+.l{border-top:3px solid purple;
+}
+._shadow{box-shadow:0 8px 16px 0 rgba(128,0,128,.3)!important}
+.bc{color:purple}
+</style>
 
-    pre code {
-    white-space: pre-wrap;
-    /* Since CSS 2.1 */
-    white-space: -moz-pre-wrap;
-    /* Mozilla, since 1999 */
-    white-space: -pre-wrap;
-    /* Opera 4-6 */
-    white-space: -o-pre-wrap;
-    /* Opera 7 */
-    word-wrap: break-word;
-    /* Internet Explorer 5.5+ */
-    }
-
-    .child{max-width:10%;
-    display: table-cell;
-    vertical-align: middle;
-    }
-
-    .g {
-    background:#f5f5f5;}
-
-    </style>
-    <meta content="#5E2D79" name="theme-color">
-    <meta content="width=device-width,height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>BOL Methodology</title>
-    <script>
+<script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -47,255 +41,265 @@
 
     ga('create', 'UA-71735832-1', 'auto');
     ga('send', 'pageview');
+</script>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 
-    </script>
 </head>
+
 <body>
-    <div class="slide g" id="1">
-        <div class="child">
-            <h1>bol{;}<br>
+  <div class="slide">
+  <div class="jumbo _shadow _cream" style="">
+  <div class="jumbo">
+            <h1><span class="bc">bol</span>{;}<br>
             <small>Methodology</small></h1>
-            <p>(c) Shubham Ramdeo</p><a href="#2"><button class="_primary">Get STarted</button></a>
-        </div>
-    </div>
-    <div class="slide" id="2">
-        <div class="child">
-            <h1>Contents</h1>
-            <div style="margin-left: 2em">
-                <a href="#3">
-                <ul>
+            <p class="_alignCenter">by Ramdeo Shubham &copy;</p>
+            <p class="_alignCenter"><small>doc ver 0.2</small></p>
+            <a class="github-button" href="https://github.com/ramdeoshubham/bol" data-size="large" aria-label="Star ramdeoshubham/bol on GitHub">Star</a><br>
+            <span class="i-a down"></span>
+    </div></div></div>
+
+<div class="l"></div>
+    <div class="slide _cream"><h1>Contents</h1></div>
+    <div class="slide ">
+                <ul style="font-weight:bold">
                     <li>Introduction</li>
-                    <li style="list-style: none; display: inline"></li>
                     <li>Getting Started</li>
-                    <li style="list-style: none; display: inline"></li>
-                    <li>Bol</li>
-                    <li style="list-style: none; display: inline"></li>
-                    <li>Structure</li>
-                    <li style="list-style: none; display: inline"></li>
+                    <li><span class="bc">bol</span> Structure</li>
                     <li>Guidelines</li>
-                    <li style="list-style: none; display: inline"></li>
-                    <li>License</li>
-                </ul></a>
-            </div><a href="#3"><button class=" _pull-right">continue...</button></a>
-        </div>
+                    <li>FAQ</li>
+                </ul>
     </div>
-    <div class="slide g" id="3">
-        <div class="child">
-            <h1>Introduction</h1>
-            <p><strong>bol</strong> is a design methodology. It stands for <code>.base .-object ._layer</code>.</p>
-            <h5>Why bol?</h5>
-            <p><strong>bol</strong> is designed on purpose that new developers of a project can understand the code easier, while css remains logical.</p>
-            <h5>Why not bol</h5>
-            <p>There are lot of other naming methodology which may be more productive than <strong>bol</strong>. Please choose the one which suits <strong>your</strong> project.</p><a href="#4"><button class=" _pull-right">continue...</button></a> <a href="#2"><button class=" _pull-left">back...</button></a>
-        </div>
+
+<div class="l"></div>
+<div class="slide _cream"><h1>Introduction</h1></div>
+
+    <div class="slide g">
+            <p><strong><span class="bc">bol</span></strong> is an  experimental design methodology. It stands for <code>.base .-object ._layer</code>.</p>
+            <h5>Why <span class="bc">bol</span>?</h5>
+            <p><strong><span class="bc">bol</span></strong> is designed on purpose that new developers of a project can understand the code easier, while css remains logical.</p>
+            <h5>Why not <span class="bc">bol</span></h5>
+            <p>There are lot of other naming methodology which may be more productive than <strong><span class="bc">bol</span></strong>. Please choose the one which suits <strong>your</strong> project.</p>
     </div>
-    <div class="slide g" id="4">
-        <div class="child">
-            <h1>Getting Started</h1>
-            <p>BOL can be divided as:</p>
+
+<div class="l"></div>
+<div class="slide _cream"><h1>Getting Started</h1></div>
+    <div class="slide ">
+
+            <p>Any design using <span class="bc">bol</span> can be divided as:</p>
             <ul>
                 <li>base classes</li>
                 <li>object classes</li>
                 <li>layer classes</li>
             </ul>
-            <p></p><a href="#5"><button class=" _pull-right">continue...</button></a> <a href="#3"><button class=" _pull-left">back...</button></a>
-        </div>
-    </div>
-    <div class="slide" id="5" style="background:#ddd;">
-        <div class="child">
-            <h3>.base</h3>
-            <p>User doesn't want to waste time on this that's why he choose a specific framework.</p>
-            <div class="container g" style="padding:10px;">
-                <h4>.object</h4>
-                <p>User wants to have different kinds of object that's why he choose a specific framework.</p>
-                <div class="container" style="background:#fff;padding:10px;">
-                    <h4>.layer</h4>
-                    <p>User wants to style the elements by his own theme and designs or want to play by mixing the avaible options that's why he choose a specific framework.</p>
-                </div>
-            </div><br>
-            <a href="#6"><button class=" _pull-right">continue...</button></a> <a href="#4"><button class=" _pull-left">back...</button></a>
-        </div>
-    </div>
-    <div class="slide" id="6">
-        <div class="child">
-            <h1>What does BOL says?</h1>
             <p></p>
-            <ul>
-                <li>let user ignore base</li>
-                <li>let user customize -object</li>
-                <li>let user play with _layer</li>
-            </ul>
-            <p></p><a href="#7"><button class=" _pull-right">continue...</button></a> <a href="#5"><button class=" _pull-left">back...</button></a>
-        </div>
-    </div>
-    <div class="slide" id="7">
-        <div class="child">
-            <h1>base</h1>
-            <p>Base classes are includes the independent styling elements. So it also includes all the HTML tags. These classes can be used alone independently as resulting elements. For example, button, headings, tooltip, navbar etc comes in base elements. They are named as follow.</p>
-            <p><code>.base { ; } //If new element.</code><br>
-            <code>base { ; } //If its an HTML element.</code></p><a href="#8"><button class=" _pull-right">continue...</button></a> <a href="#6"><button class=" _pull-left">back...</button></a>
-        </div>
-    </div>
-    <div class="slide g" id="8">
-        <div class="child">
-            <h1>base example</h1>
-            <pre><code><strong style="color:lightgreen">/* -CSS- */</strong>
+          </div>
+
+    <div class="slide">
+      <h2><span class="bc">bol</span> Wrapper</h2>
+      <div class="slide" style="background:#f5f5f5">
+        <h3>_layer</h3>
+        <p><i>let user play with _layer</i></p>
+        <p>Users want to style elements on their own themes and designs or want to play by mixing the available options that's why they choose a specific framework.</p>
+
+            <div class="slide" style="background:#eee">
+                <h4>-object</h4>
+                <p><i>let user customize -object</i></p>
+                <p>Users want to have different kinds of objects and elements that's why they choose a specific framework.</p>
+                <div class="slide" style="background:#e7e7e7">
+                  <h5>.base</h5>
+                  <p><i>let user ignore base</i></p>
+                  <p>Users don't want to waste time on this that's why they choose a specific framework.</p>
+</div></div><br></div></div>
+
+<div class="_alignCenter">
+<img src="BOL.png">
+</div>
+
+<div class="row">
+<div class="col m6">
+<div class="slide">
+            <h2>base</h2>
+            <p>Base classes includes the independent styling. So they also includes all the HTML tags. These classesq can be used alone independently. For example, button, headings, tooltip, navbar etc comes in base elements. They are named as follow.</p>
+            If new element:
+            <p><code>.base { ; }</code><br>
+              If its an HTML element:
+            <code>base { ; }</code></p>
+</div></div>
+
+
+<div class="col m6 g">
+<div class="slide">
+            <h4>Example</h4>
+            <pre><code><strong style="color:green">/* -CSS- */</strong>
 p { ; }
 .navbar { ; }
 .tooltip { ; }
 </code></pre>
-            <pre><code><strong style="color:lightgreen">&lt;!--HTML--&gt;</strong>
+            <pre><code><strong style="color:green">&lt;!--HTML--&gt;</strong>
 &lt;p&gt; ... &lt;/p&gt;
-&lt;div class = "navbar"&gt; ... &lt;/div&gt; 
-&lt;div class = "tooltip"&gt; ... &lt;/div&gt; 
-</code></pre><a href="#9"><button class=" _pull-right">continue...</button></a> <a href="#7"><button class=" _pull-left">back...</button></a>
-        </div>
+&lt;div class = "navbar"&gt; ... &lt;/div&gt;
+&lt;div class = "tooltip"&gt; ... &lt;/div&gt;
+</code></pre>
+</div>
     </div>
-    <div class="slide" id="9">
-        <div class="child">
-            <h1>object</h1>
-            <p>Object classes are purely dependent on the the base classes. Although Base classes can be used independently with objects and they would use the default object styling, objects classes ads more base dependent customization. They are named as follows.</p>
+  </div>
+  <div class="row">
+    <div class="col m6">
+    <div class="slide">
+            <h2>object</h2>
+            <p>Object classes purely dependents on their base classes. Although Base classes can be used independently with objects and they would use the default object styling, objects classes adds more base dependent elements and customization options. They are named as follows.</p>
             <p><code>.base .-object { ; }</code></p>
-            <p>Always declared along with base for specificity.</p><a href="#10"><button class=" _pull-right">continue...</button></a> <a href="#8"><button class=" _pull-left">back...</button></a>
+            <p>Always declared along with base for specificity.</p>
+            <p>This pretty much looks like : "navbar navbar-icon" or "tootltip tooltip-right". But instead repeating base, here we use only hyphen (or something as object prefix).</p>
         </div>
     </div>
-    <div class="slide g" id="10">
-        <div class="child">
-            <h1>object example</h1>
-            <pre><code><strong style="color:lightgreen">/* -CSS- */</strong>
+
+<div class="col m6 g"><div class="slide">
+            <h4>Example</h4>
+            <pre><code><strong style="color:green">/* -CSS- */</strong>
 .tooltip .-right  { ; }
 .tooltip .-icon  { ; }
 .navbar .-icon { ; }
 </code></pre>
-            <pre><code><strong style="color:lightgreen">&lt;!--HTML--&gt;</strong>
-&lt;div class = "navbar -icon"&gt; ... &lt;/div&gt; 
-&lt;div class = "tooltip -right"&gt; ... &lt;/div&gt; 
-&lt;div class = "tooltip -icon"&gt; ... &lt;/div&gt; 
+<pre><code><strong style="color:green">&lt;!--HTML--&gt;</strong>
+&lt;div class = "navbar -icon"&gt; ... &lt;/div&gt;
+&lt;div class = "tooltip -right"&gt; ... &lt;/div&gt;
+&lt;div class = "tooltip -icon"&gt; ... &lt;/div&gt;
 </code></pre>
-            <p>This pretty much looks like : "navbar navbar-icon" or "tootltip tooltip-right". But instead repeating base, using only hyphen also makes it clear.</p><a href="#11"><button class=" _pull-right">continue...</button></a> <a href="#9"><button class=" _pull-left">back...</button></a>
+</div></div></div>
+
+<div class="row">     <div class="col m6">   <div class="slide" id="11">
+            <h2>layer</h2>
+            <p>Layer classes are not bound to any other class and can be used in any way. But using them without any base (includes HTML elements) or objects will not make any sense. They are the Utilities and Modifiers and can be mixed up. These are named as follows.</p>
+            <p><code>._layer { ; }</code></p>
+            <p><code>!important</code> tag can be used as layers holds the final style. But try to avoid if possible.</p>
         </div>
-    </div>
-    <div class="slide" id="11">
-        <div class="child">
-            <h1>layer</h1>
-            <p>Layer classes are not bound to any other class and can be used independently. But using them without any base (includes HTML elements) or objects will not make any sense. They are the Utilities and Modifiers. They can be mixed up. And are named as follows.</p>
-            <p><code>._layer { ; }</code><br>
-            Use <code>._[adjective]-[verb]-[noun]</code> in order.</p>
-            <p><code>!important</code> tag can be used as layers holds the final style. But try to avoid if possible.</p><a href="#12"><button class=" _pull-right">continue...</button></a> <a href="#10"><button class=" _pull-left">back...</button></a>
-        </div>
-    </div>
+    </div>    <div class="col m6 g">
     <div class="slide g" id="12">
-        <div class="child">
-            <h1>layer example</h1>
-            <pre><code><strong style="color:lightgreen">/* -CSS- */</strong>
+
+            <h4>Example</h4>
+            <pre><code><strong style="color:green">/* -CSS- */</strong>
 ._width-full { ; }
 ._desktop-hidden { ; }
 ._black { ; }
 </code></pre>
-            <pre><code><strong style="color:lightgreen">&lt;!--HTML--&gt;</strong>
-&lt;div class = "navbar _desktop-hidden"&gt; ... &lt;/div&gt; 
-&lt;div class = "tooltip -right _width-full"&gt; ... &lt;/div&gt; 
-&lt;div class = "tooltip -icon _black _desktop-hidden"&gt; ... &lt;/div&gt; 
-</code></pre><a href="#13"><button class=" _pull-right">continue...</button></a> <a href="#11"><button class=" _pull-left">back...</button></a>
-        </div>
-    </div>
-    <div class="slide" id="13">
-        <div class="child">
-            <h2>For Example</h2>
-            <pre><code>&lt;div class="<strong style="color:skyblue;">navbar</strong>"&gt;
-    &lt;div class="<strong style="color:skyblue;">-dropdown _disabled</strong>"&gt;
-        MENU
-    &lt;/div&gt;
+
+<pre><code><strong style="color:green">&lt;!--HTML--&gt;</strong>
+&lt;div class = "navbar _desktop-hidden"&gt; ... &lt;/div&gt;
+&lt;div class = "tooltip -right _width-full"&gt; ... &lt;/div&gt;
+&lt;div class = "tooltip -icon _black _desktop-hidden"&gt; ... &lt;/div&gt;
+</code></pre>
+</div></div></div>
+
+<div class="l"></div>
+<div class="slide _cream"><h1><span class="bc">bol</span> Structure</h1></div>
+<div class="row">
+<div class="col m6"><div class="slide">
+<h2>Example</h2>
+        <p><strong>base</strong> <code>navbar</code><br>
+        <strong>object</strong> <code>-dropdown</code><br>
+        <strong>layer</strong> <code>_disabled</code></p>
+
+        <p><strong>base</strong> <code>tooltip</code><br>
+        <strong>object</strong> <code>-right</code><code>-text</code><br>
+        <strong>layer</strong> <code>_red</code><code>_blinking</code>
+</div></div>
+
+<div class="col m6 g"><div class="slide">
+<pre><code>&lt;div class="<strong style="color:skyblue;">navbar</strong>"&gt;
+ &lt;div class="<strong style="color:skyblue;">-dropdown _disabled</strong>"&gt;
+     MENU
+ &lt;/div&gt;
 &lt;/div&gt;
 </code></pre>
-            <p><strong>base</strong> <code>navbar</code><br>
-            <strong>object</strong> <code>-dropdown</code><br>
-            <strong>layer</strong> <code>_disabled</code></p><a href="#14"><button class=" _pull-right">continue...</button></a> <a href="#12"><button class=" _pull-left">back...</button></a>
-        </div>
-    </div>
-    <div class="slide" id="14">
-        <div class="child">
-            <h1>For Example Contd...</h1>
-            <pre><code>&lt;div class="<strong style="color:skyblue;">tooltip -right Color</strong>"&gt;
-    &lt;div class="<strong style="color:skyblue;">-text _blinking</strong>"&gt;
-        I am a blinking tooltipText of a tooltip in right.
-    &lt;/div&gt;
+
+<pre><code>&lt;div class="<strong style="color:skyblue;">tooltip -right _red</strong>"&gt;
+&lt;div class="<strong style="color:skyblue;">-text _blinking</strong>"&gt;
+I am a blinking tooltipText of a red tooltip in right.
+&lt;/div&gt;
 &lt;/div&gt;
 </code></pre>
-            <p><strong>base</strong> <code>tooltip</code><br>
-            <strong>object</strong> <code>-right</code><code>-text</code><br>
-            <strong>layer</strong> <code>Color</code><code>_blinking</code></p><a href="#15"><button class=" _pull-right">continue...</button></a> <a href="#13"><button class=" _pull-left">back...</button></a>
-        </div>
-    </div>
-    <div class="slide" id="15">
-        <div class="child">
-            <h1>BOL Structure</h1>
-            <p>For easy maintainance, all css should be made into different files for each base along with its objects and an independent layer file.</p>
-            <pre><code>html-base-with-objects.css
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col m6"><div class="slide">
+        <h2>File Structure</h2>
+            <p>For easy maintenance, all css should be made into different files for each base along with its objects and an independent layer file.</p>
+            <pre>html-base-with-objects.css
 base1-with-objects.css
 base2-with-objects.css
-layers.css</code></pre>
-            <p>For production version, all should be put into a single file.</p>. <a href="#16"><button class=" _pull-right">continue...</button></a> <a href="#14"><button class=" _pull-left">back...</button></a>
-        </div>
-    </div>
-    <div class="slide g" id="16">
-        <div class="child">
-            <h1>Example</h1>
-            <pre><code><strong style="color:lightgreen">/* -html.css- */</strong>
+...
+layers.css</pre>
+            <p>For production version, all should be put into a single minified compressed file.</p>
+</div></div>
+
+<div class="col m6 g"><div class="slide g" id="16">
+<pre><code><strong style="color:green">/* -html.css- */</strong>
 p { ; }
-<strong style="color:lightgreen">/* -tooltip.css- */</strong>
+<strong style="color:green">/* -tooltip.css- */</strong>
 .tootltip { ; }
 .tooltip .-right  { ; }
 .tooltip .-icon  { ; }
-<strong style="color:lightgreen">/* -navbar.css- */</strong>
+<strong style="color:green">/* -navbar.css- */</strong>
 .navbar { ; }
 .navbar .-icon{ ; }
-<strong style="color:lightgreen">/* -layers.css- */</strong>
+<strong style="color:green">/* -layers.css- */</strong>
 ._width-full { ; }
 ._desktop-hidden { ; }
 ._black { ; }
-</code></pre><a href="#17"><button class=" _pull-right">continue...</button></a> <a href="#15"><button class=" _pull-left">back...</button></a>
-        </div>
-    </div>
-    <div class="slide" id="17">
-        <div class="child">
-            <h1>General Guidelines for HTML with BOL</h1>
+</code></pre>
+</div></div>
+</div>
+
+<div class="l"></div>
+<div class="slide _cream"><h1>General Guidelines for HTML with <span class="bc">bol</span></h1></div>
+<div class="slide">
             <ol>
                 <li>Try to avoid using <code>!important;</code></li>
                 <li>Stay away from <code>#</code>ids. Always use classes for styling.</li>
                 <li>No child without parent.</li>
                 <li>Follow DRY, Don't Repeat Yourself.</li>
-            </ol><a href="#18"><button class=" _pull-right">continue...</button></a> <a href="#16"><button class=" _pull-left">back...</button></a>
-        </div>
-    </div>
-    <div class="slide" id="18">
-        <div class="child">
-            <h1>License</h1>
-            <p>BOL Methodoly is designed by Shubham Ramdeo and is copyrighted. The code is Licensed under <a>MIT</a> and the document is Licensed under <a>CC-4.0</a>. Which means you can use the code, document and BOL Methodology itself, till you are giving back proper credit and attribution to the author, Shubham Ramdeo</p><a href="#19"><button class=" _pull-right">continue...</button></a> <a href="#17"><button class=" _pull-left">back...</button></a>
-        </div>
-    </div>
-    <div class="slide" id="19">
-        <div class="child">
-            <p>Designed with &hearts; by Shubham Ramdeo (c)</p><a href="#1"><button class=" _pull-right">Back to top</button></a>
-        </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
-    </script> 
-    <script>
-    $(function() {
-    $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-    });
-    });
-    </script>
+            </ol>
+</div>
+
+<div class="l"></div>
+<div class="slide _cream"><h1>FAQ</h1></div>
+<div class="slide"><div class="container">
+<dl>
+<br>  <dt>Umm.. I still didn't get it! What is <span class="bc">bol</span>?</dt>
+  <dd>Okay! <span class="bc">bol</span> is simply a design convention that can you can use, specially during web designing. Just like, an standard approach to follow while writing CSS etc. Other great alternatives are : BEM, SMACSS, OOCSS etc.</dd>
+<br>  <dt>What's make <span class="bc">bol</span> different?</dt>
+  <dd>It's still experimental. Though other available methodology are great and more mature, <span class="bc">bol</span> is intended to be both brain and computer friendly while rapid designing.</dd>
+<br>  <dt>History behind <span class="bc">bol</span>?</dt>
+  <dd>During development of Beauter Framework, a default convention system was required to be develop over. Although a lot of options were available, an experimental methodology was developed from scratch, later named <span class="bc">bol</span>.</dd>
+<br>  <dt>Where <span class="bc">bol</span> is useful?</dt>
+  <dd><span class="bc">bol</span> is developed keeping mobile CSS designing as its primary goal. But the idea behind the methodology may be applicable to any designing process.</dd>
+<br>  <dt> found repeated usage of underscores before layer classes. Don't you know using underscores might be a issue for some browser?</dt>
+  <dd>Yes. But here we used it just for the purpose of representation. To make it look more distinct than object and a bit more fancy. You may use whatever you like, for example, <strong>l-<i>layer</i></strong>.</dd>
+<br>  <dt>Can I use this the way I want, for free?</dt>
+  <dd>Yes you can. Ideas behind this document is free to use for your designing purpose. But the document itself is copyrighted. You have to give proper credit to the author before any kind of republication.</dd>
+<br>  <dt>How can I contribute my ideas too?</dt>
+  <dd><span class="bc">bol</span> is being maintained as an open source repository on <a href="https://github.com/ramdeoshubham/bol">Github</a>. You can get involved <a href="https://github.com/ramdeoshubham/bol">here</a>.</dd>
+<br>  <dt>I Didn't found my answer!</dt>
+  <dd>Its no problem, you can ask <a href="https://github.com/ramdeoshubham/bol/issues/new?title=Type+your+question&body=Explain+in+detail+your+question&labels=question">here</a>.</dd>
+</dl>
+</div></div>
+
+<script>
+var b = document.getElementsByTagName("code");
+[].slice.call(b).forEach(function(a) {
+    a.className += " _shadow";
+});
+</script>
+
+<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=597d9dc59f5787001247683c&product=inline-share-buttons"></script>
+<div class="l"></div>
+<div class="_dark slide _alignCenter">
+    <a class="github-button" href="https://github.com/ramdeoshubham/bol" aria-label="Star ramdeoshubham/bol on GitHub">Star</a>
+    <p class="_alignCenter">Designed with <span alt="with love">&hearts;</span> by <strong>Shubham Ramdeo</strong><Br>Copyright 2017</p>
+</div>
+
 </body>
 </html>
