@@ -1,4 +1,4 @@
 # bol
 Base Object Layer - Design Methodology
 
-Read [here](http://ramdeoshubham.com/bol). 
+Read [here](http://bol.outboxcraft.com). 
